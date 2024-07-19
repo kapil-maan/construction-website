@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login page</title>
+        <style>
+            .simpleLogin form {
+  max-width: 400px;
+  margin: auto;
+  background:#fefefd;
+  box-shadow: 0 10px 10px #222;
+}
+.simpleLogin form fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 20px;
+}
+.simpleLogin form legend,
+.simpleLogin form fieldset input {
+  font-family: Open Sans;
+  font-size:15px;
+}
+.simpleLogin form legend {
+    background-color: #8fc400;
+    border-top: 0 none;
+    color: white;
+    display: table-cell;
+    padding: 10px 20px;
+    width: auto;
+}
+        </style>
+    </head>
+
+    <body>
+        <div class="simpleLogin">
+            <form>
+              <legend>Let's Login</legend>
+              <fieldset>
+                <input id="name" placeholder="Username" type="text">
+                <input id="pass" placeholder="Password" type="password">
+                <input id="submit" type="submit" value="Log in">
+              </fieldset>
+            </form>
+          </div> 
+    </body>
+</html>

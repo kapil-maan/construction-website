@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="topMostContainer">
+            <div>
+                <img
+                    src="./images/construction_logo.png"
+                    alt="Company Logo"
+                    class="company_logo"
+                />
+            </div>
+            <div>
+                <div>Contact: 7879108218</div>
+                <div>Email: kapil@gmail.com</div>
+            </div>
+            <div>
+                <div>Comapny Location</div>
+                Gurgaon, haryana
+            </div>
+            <button>Login</button>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="pages/history_about_us.html">About Us/ History</a>
+            <a href="pages/our_business.html">Our Business</a>
+            <a href="pages/projects.html">Projects</a>
+            <a href="pages/media.html">Media</a>
+            <a href="pages/career.html">Career</a>
+            <a href="pages/contact_us.html">Contact Us</a>
+            <a
+                href="javascript:void(0);"
+                class="icon"
+                onclick="hamburgerHandler()"
+            >
+                &#x2630;
+            </a>
+        </div>
+
+        <div style="padding: 16px">
+            <h2>Home Page</h2>
+            <section>
+                <img
+                    src="./images/construction_image.jpg"
+                    alt="Hero Image"
+                    width="100%"
+                    height="600px"
+                    style="object-fit: cover"
+                />
+            </section>
+            <section
+                style="
+                    margin-top: 60px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    gap: 24px;
+                "
+            >
+                <div
+                    style="flex: 1; background-color: aliceblue; padding: 16px"
+                >
+                    <h2>Who we are</h2>
+                    <p>
+                        ➣ We are a team of passionate and motivated professionals who share a common vision of building a better future for 
+                        everyone.
+                        <br><br>
+                        ➣ We have over 25 years of experience and expertise in the field of building and engineering, and we have delivered 
+                        over 500 projects across the country.
+                        <br><br>
+                        ➣ We value diversity, innovation, and excellence in everything we do, and we strive to exceed the expectations of 
+                        our clients and stakeholders.
+                        <br><br>
+                        ➣ We have a strong culture of learning and growth, and we support and reward our employees for their performance and 
+                        achievements.
+                        <br><br>
+                        ➣ We are committed to social and environmental responsibility, and we contribute to the well-being and development 
+                        of the communities where we work.                        
+                    </p>
+                </div>
+                <div style="flex: 1">
+                    <iframe
+                        width="100%"
+                        height="400"
+                        src="https://www.youtube.com/embed/SvApoH3n9FE"
+                        title="construction site time lapse shopping mall | Minto Mönchengladbach - MFI"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </section>
+            <section>
+                <h2>What we Do</h2>
+                <div style="display: flex; justify-content: space-around">
+                    <div class="whatWeCard">Highway</div>
+                    <div class="whatWeCard">Bridges</div>
+                    <div class="whatWeCard">Buildings</div>
+                    <div class="whatWeCard">Hotels</div>
+                    <div class="whatWeCard">Offices</div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
